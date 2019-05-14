@@ -14,7 +14,7 @@ sudo docker run \
     -p 9311:9311 \
     -v $LOCAL_BARBICAN_CONFIGS:/etc/barbican \
     --name barbican \
-    -t jmvrbanac/simple-barbican
+    -t barbican:v1
 ```
 
 About the image
